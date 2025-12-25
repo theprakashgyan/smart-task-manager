@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+.env
+npm-debug.log
+yarn-error.log
+
+# Flutter/Dart
+task_manager_app/.dart_tool/
+task_manager_app/.flutter-plugins
+task_manager_app/.flutter-plugins-dependencies
+task_manager_app/.pub-cache/
+task_manager_app/.pub/
+task_manager_app/build/
+
+# Android
+task_manager_app/android/.gradle/
+task_manager_app/android/local.properties
+
+# iOS
+task_manager_app/ios/.symlinks/
+task_manager_app/ios/Pods/
+task_manager_app/ios/Podfile.lock
+
+# VS Code
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db
