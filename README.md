@@ -62,43 +62,7 @@ This project was built to demonstrate a "Smart" workflow:
     flutter run
     ```
 
-## 📖 API Documentation
 
-### `POST /api/tasks`
-Create a new task with optional manual overrides.
-
-**Request:**
-```json
-{
-  "title": "Urgent meeting with John",
-  "description": "Discuss budget",
-  "category": "finance", // Optional override
-  "priority": "high",    // Optional override
-  "due_date": "2023-12-26T00:00:00.000Z",
-  "assigned_to": "John"
-}
-```
-
-### `POST /api/classify`
-Preview classification results without saving.
-
-**Request:**
-```json
-{
-  "title": "Fix server crash",
-  "description": ""
-}
-```
-
-**Response:**
-```json
-{
-  "category": "technical",
-  "priority": "high",
-  "suggested_actions": ["Diagnose issue", "Check logs"],
-  "extracted_entities": {}
-}
-```
 
 ## 🏗 Architecture Decisions
 
@@ -109,4 +73,18 @@ Preview classification results without saving.
 
 ## 📸 Screenshots
 
-*(Add your screenshots here)*
+<img width="736" height="712" alt="image" src="https://github.com/user-attachments/assets/2286c14b-87a5-4d72-a6b4-9c48a4f1d682" />
+
+<img width="739" height="702" alt="image" src="https://github.com/user-attachments/assets/0134665b-bedf-4621-9793-38139e47d4ab" />
+
+<img width="740" height="708" alt="image" src="https://github.com/user-attachments/assets/3fd7cd95-8a9c-4d2f-b731-a9d831fdbf2c" />
+
+<img width="739" height="707" alt="image" src="https://github.com/user-attachments/assets/a5c9ef07-09b8-4359-b7f6-f6b5963faf31" />
+
+<img width="736" height="710" alt="image" src="https://github.com/user-attachments/assets/1f4246bc-53bf-4bee-8516-287819ed6be5" />
+
+
+
+
+
+
