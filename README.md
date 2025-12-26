@@ -72,15 +72,23 @@ This project was built to demonstrate a "Smart" workflow:
 -   **Supabase**: Chosen for instant Postgres setup and Row Level Security capabilities.
 
 ## 📸 Screenshots
-
+**Interface of Flutter App**
 <img width="736" height="712" alt="image" src="https://github.com/user-attachments/assets/2286c14b-87a5-4d72-a6b4-9c48a4f1d682" />
 
+**Click on + icon to create TASK**
 <img width="739" height="702" alt="image" src="https://github.com/user-attachments/assets/0134665b-bedf-4621-9793-38139e47d4ab" />
 
+**In Create Task**: There will be three option to fill up
+New Task
+Description
+Category : General, Scheduling, Finance, Technical, Safety
+Priority : Low, Medium, High
+One can sleect from these option to Create Task
 <img width="740" height="708" alt="image" src="https://github.com/user-attachments/assets/3fd7cd95-8a9c-4d2f-b731-a9d831fdbf2c" />
 
 <img width="739" height="707" alt="image" src="https://github.com/user-attachments/assets/a5c9ef07-09b8-4359-b7f6-f6b5963faf31" />
 
+We can see that various task has been created. Swipe Right to left Delete task also we can modify task
 <img width="736" height="710" alt="image" src="https://github.com/user-attachments/assets/1f4246bc-53bf-4bee-8516-287819ed6be5" />
 
 
